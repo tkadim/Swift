@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8425F444673F736AEAB8C1CD /* Pods_NASAClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF1B3974C7230638E82D22B /* Pods_NASAClient.framework */; };
+		87912DD027790E5000050740 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87912DCF27790E5000050740 /* PhotoTableViewCell.swift */; };
+		87948E3C27984E13007B0D2D /* Rovers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87948E3B27984E13007B0D2D /* Rovers.swift */; };
+		87948E3E27999DBB007B0D2D /* GetRoversModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87948E3D27999DBB007B0D2D /* GetRoversModel.swift */; };
+		87986F442767D5C100BC30BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87986F432767D5C100BC30BC /* AppDelegate.swift */; };
+		87986F462767D5C100BC30BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87986F452767D5C100BC30BC /* SceneDelegate.swift */; };
+		87986F482767D5C100BC30BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87986F472767D5C100BC30BC /* ViewController.swift */; };
+		87986F4B2767D5C100BC30BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87986F492767D5C100BC30BC /* Main.storyboard */; };
+		87986F4D2767D5C200BC30BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87986F4C2767D5C200BC30BC /* Assets.xcassets */; };
+		87986F502767D5C200BC30BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87986F4E2767D5C200BC30BC /* LaunchScreen.storyboard */; };
+		87B361CC2782514100372A1C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B361CB2782514100372A1C /* NetworkService.swift */; };
+		87B361CF27830C6D00372A1C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 87B361CE27830C6D00372A1C /* Kingfisher */; };
+		87B361D127859A5E00372A1C /* FullScreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B361D027859A5E00372A1C /* FullScreenImageViewController.swift */; };
+		87B9B364277BBEB600C8307A /* GetPhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9B363277BBEB600C8307A /* GetPhotosModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87912DCF27790E5000050740 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		87948E3B27984E13007B0D2D /* Rovers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rovers.swift; sourceTree = "<group>"; };
+		87948E3D27999DBB007B0D2D /* GetRoversModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRoversModel.swift; sourceTree = "<group>"; };
+		87986F402767D5C100BC30BC /* NASAClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASAClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87986F432767D5C100BC30BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87986F452767D5C100BC30BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87986F472767D5C100BC30BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87986F4A2767D5C100BC30BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87986F4C2767D5C200BC30BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87986F4F2767D5C200BC30BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87986F512767D5C200BC30BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B361CB2782514100372A1C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		87B361D027859A5E00372A1C /* FullScreenImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageViewController.swift; sourceTree = "<group>"; };
+		87B9B363277BBEB600C8307A /* GetPhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhotosModel.swift; sourceTree = "<group>"; };
+		BCF1B3974C7230638E82D22B /* Pods_NASAClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NASAClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB8695BDF606AC249F0CD1F /* Pods-NASAClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASAClient.release.xcconfig"; path = "Target Support Files/Pods-NASAClient/Pods-NASAClient.release.xcconfig"; sourceTree = "<group>"; };
+		F56C1BFEBCC3F267A572ADA8 /* Pods-NASAClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASAClient.debug.xcconfig"; path = "Target Support Files/Pods-NASAClient/Pods-NASAClient.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87986F3D2767D5C100BC30BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B361CF27830C6D00372A1C /* Kingfisher in Frameworks */,
+				8425F444673F736AEAB8C1CD /* Pods_NASAClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87986F372767D5C100BC30BC = {
+			isa = PBXGroup;
+			children = (
+				87986F422767D5C100BC30BC /* NASAClient */,
+				87986F412767D5C100BC30BC /* Products */,
+				D8B166EB02448B111DC02102 /* Pods */,
+				FFC9CE016D4E8EF00A2D1821 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87986F412767D5C100BC30BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87986F402767D5C100BC30BC /* NASAClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87986F422767D5C100BC30BC /* NASAClient */ = {
+			isa = PBXGroup;
+			children = (
+				87B361CB2782514100372A1C /* NetworkService.swift */,
+				87986F432767D5C100BC30BC /* AppDelegate.swift */,
+				87986F452767D5C100BC30BC /* SceneDelegate.swift */,
+				87986F472767D5C100BC30BC /* ViewController.swift */,
+				87986F492767D5C100BC30BC /* Main.storyboard */,
+				87986F4C2767D5C200BC30BC /* Assets.xcassets */,
+				87986F4E2767D5C200BC30BC /* LaunchScreen.storyboard */,
+				87986F512767D5C200BC30BC /* Info.plist */,
+				87912DCF27790E5000050740 /* PhotoTableViewCell.swift */,
+				87B9B363277BBEB600C8307A /* GetPhotosModel.swift */,
+				87B361D027859A5E00372A1C /* FullScreenImageViewController.swift */,
+				87948E3B27984E13007B0D2D /* Rovers.swift */,
+				87948E3D27999DBB007B0D2D /* GetRoversModel.swift */,
+			);
+			path = NASAClient;
+			sourceTree = "<group>";
+		};
+		D8B166EB02448B111DC02102 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F56C1BFEBCC3F267A572ADA8 /* Pods-NASAClient.debug.xcconfig */,
+				DBB8695BDF606AC249F0CD1F /* Pods-NASAClient.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFC9CE016D4E8EF00A2D1821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCF1B3974C7230638E82D22B /* Pods_NASAClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87986F3F2767D5C100BC30BC /* NASAClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87986F542767D5C200BC30BC /* Build configuration list for PBXNativeTarget "NASAClient" */;
+			buildPhases = (
+				4F48DEEF8D1E999567BCC9C5 /* [CP] Check Pods Manifest.lock */,
+				87986F3C2767D5C100BC30BC /* Sources */,
+				87986F3D2767D5C100BC30BC /* Frameworks */,
+				87986F3E2767D5C100BC30BC /* Resources */,
+				D35CC92073E9F00CAD435A60 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NASAClient;
+			packageProductDependencies = (
+				87B361CE27830C6D00372A1C /* Kingfisher */,
+			);
+			productName = NASAClient;
+			productReference = 87986F402767D5C100BC30BC /* NASAClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87986F382767D5C100BC30BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					87986F3F2767D5C100BC30BC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 87986F3B2767D5C100BC30BC /* Build configuration list for PBXProject "NASAClient" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87986F372767D5C100BC30BC;
+			packageReferences = (
+				87B361CD27830C6D00372A1C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 87986F412767D5C100BC30BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87986F3F2767D5C100BC30BC /* NASAClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87986F3E2767D5C100BC30BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87986F502767D5C200BC30BC /* LaunchScreen.storyboard in Resources */,
+				87986F4D2767D5C200BC30BC /* Assets.xcassets in Resources */,
+				87986F4B2767D5C100BC30BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F48DEEF8D1E999567BCC9C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NASAClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D35CC92073E9F00CAD435A60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NASAClient/Pods-NASAClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NASAClient/Pods-NASAClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NASAClient/Pods-NASAClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87986F3C2767D5C100BC30BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87948E3C27984E13007B0D2D /* Rovers.swift in Sources */,
+				87B9B364277BBEB600C8307A /* GetPhotosModel.swift in Sources */,
+				87912DD027790E5000050740 /* PhotoTableViewCell.swift in Sources */,
+				87948E3E27999DBB007B0D2D /* GetRoversModel.swift in Sources */,
+				87986F482767D5C100BC30BC /* ViewController.swift in Sources */,
+				87986F442767D5C100BC30BC /* AppDelegate.swift in Sources */,
+				87B361D127859A5E00372A1C /* FullScreenImageViewController.swift in Sources */,
+				87B361CC2782514100372A1C /* NetworkService.swift in Sources */,
+				87986F462767D5C100BC30BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87986F492767D5C100BC30BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87986F4A2767D5C100BC30BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87986F4E2767D5C200BC30BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87986F4F2767D5C200BC30BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87986F522767D5C200BC30BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87986F532767D5C200BC30BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87986F552767D5C200BC30BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56C1BFEBCC3F267A572ADA8 /* Pods-NASAClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XN66MR9WL3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NASAClient/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tkadim.NASAClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87986F562767D5C200BC30BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB8695BDF606AC249F0CD1F /* Pods-NASAClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XN66MR9WL3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NASAClient/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tkadim.NASAClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87986F3B2767D5C100BC30BC /* Build configuration list for PBXProject "NASAClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87986F522767D5C200BC30BC /* Debug */,
+				87986F532767D5C200BC30BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87986F542767D5C200BC30BC /* Build configuration list for PBXNativeTarget "NASAClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87986F552767D5C200BC30BC /* Debug */,
+				87986F562767D5C200BC30BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87B361CD27830C6D00372A1C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87B361CE27830C6D00372A1C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B361CD27830C6D00372A1C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 87986F382767D5C100BC30BC /* Project object */;
+}

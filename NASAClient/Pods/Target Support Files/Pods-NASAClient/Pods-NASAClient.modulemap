@@ -1,0 +1,6 @@
+framework module Pods_NASAClient {
+  umbrella header "Pods-NASAClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
